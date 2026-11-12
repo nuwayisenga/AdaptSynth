@@ -1,0 +1,5 @@
+,columns_trained_on,columns_trained_on,numerical_cols,numerical_cols,categorical_cols,categorical_cols,relationships,relationships,TSTR_macroF1,TSTR_macroF1,train_seconds,train_seconds
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+experiment,,,,,,,,,,,,
+baseline (all features),59.0,,0.573,,0.458,,0.839,,0.023,,13.779,
+selected (voted top-N),11.0,,0.53,,0.461,,0.841,,0.01,,0.84,

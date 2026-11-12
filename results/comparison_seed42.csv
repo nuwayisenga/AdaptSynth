@@ -1,0 +1,5 @@
+experiment,scored_on,seed,runtime_s,numerical,categorical,relationship,n_cols
+baseline,own columns,42,1419,0.849,0.863,0.948,47
+baseline,same selected columns,42,1419,0.843,0.831,0.935,11
+selected,own columns,42,547,0.818,0.817,0.956,11
+selected,same selected columns,42,547,0.818,0.817,0.956,11

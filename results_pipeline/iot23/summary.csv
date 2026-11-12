@@ -1,0 +1,5 @@
+,,n_features,n_features,sim_numerical,sim_numerical,sim_categorical,sim_categorical,sim_relationships,sim_relationships,TSTR_F1,TSTR_F1,TSTR_AUC,TSTR_AUC,train_seconds,train_seconds,peak_gpu_gb,peak_gpu_gb
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+generator,feature_set,,,,,,,,,,,,,,,,
+ctabgan_plus,all features,10.0,,0.909,,0.973,,0.964,,0.951,,0.974,,146.956,,0.332,
+ctabgan_plus,voted top-N,6.0,,0.925,,0.957,,0.922,,0.947,,0.981,,140.925,,0.331,

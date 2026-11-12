@@ -1,0 +1,52 @@
+{
+  "dataset": "iot23",
+  "generators": [
+    "ctabgan_plus"
+  ],
+  "epochs": 200,
+  "seeds": [
+    42
+  ],
+  "n_select": 6,
+  "corr_threshold": 0.95,
+  "remove_outliers": false,
+  "zscore": false,
+  "split": "stratified",
+  "selected_features": [
+    "id.resp_p",
+    "id.orig_p",
+    "duration",
+    "history",
+    "proto",
+    "orig_pkts"
+  ],
+  "prep_info": {
+    "constant": [
+      "service",
+      "local_orig",
+      "local_resp",
+      "missed_bytes",
+      "tunnel_parents"
+    ],
+    "duplicate_columns": [],
+    "correlated": [
+      "orig_ip_bytes",
+      "resp_ip_bytes"
+    ],
+    "outliers_removed": null,
+    "rows": {
+      "train": 4905,
+      "test": 2103
+    }
+  },
+  "trtr": {
+    "f1_macro": 0.995632706132371,
+    "roc_auc": 0.9998268218343032
+  },
+  "real_vs_real_similarity": {
+    "sim_numerical": 0.979294323967072,
+    "sim_categorical": 0.9944978369076232,
+    "sim_relationships": 0.9855620962048968
+  },
+  "notes": "CTU-IoT-Malware-1-1 (Scenario 1). Random stratified split."
+}

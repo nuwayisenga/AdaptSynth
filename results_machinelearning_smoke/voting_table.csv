@@ -1,0 +1,59 @@
+,vote_anova_f (filter),vote_chi2_cramersV (filter),vote_mutual_info (filter),vote_rfe (wrapper),vote_rf_importance (embedded),rank_anova_f (filter),rank_chi2_cramersV (filter),rank_mutual_info (filter),rank_rfe (wrapper),rank_rf_importance (embedded),votes,avg_rank,selected
+Init_Win_bytes_backward,1,1,0,1,1,2.0,3.0,15.0,1.0,2.0,4,4.6,True
+Max Packet Length,1,1,1,1,0,7.0,8.0,2.0,1.0,18.0,4,7.2,True
+min_seg_size_forward,1,1,0,1,1,6.0,1.0,40.0,1.0,5.0,4,10.6,True
+Destination Port,0,1,0,1,1,,10.0,19.0,1.0,1.0,3,7.75,True
+Bwd Packets/s,0,0,1,1,1,50.0,38.0,7.0,1.0,4.0,3,20.0,True
+Flow Packets/s,0,0,1,1,1,54.0,50.0,6.0,1.0,6.0,3,23.4,True
+Average Packet Size,0,0,1,1,0,11.0,16.0,3.0,1.0,14.0,2,9.0,True
+Bwd Packet Length Mean,1,1,0,0,0,4.0,4.0,25.0,11.0,19.0,2,12.6,True
+Packet Length Mean,1,0,1,0,0,9.0,15.0,4.0,15.0,27.0,2,14.0,True
+Flow IAT Std,0,0,0,1,1,26.0,35.0,12.0,1.0,7.0,2,16.2,True
+Packet Length Std,1,1,0,0,0,10.0,6.0,22.0,26.0,22.0,2,17.2,False
+Flow IAT Max,0,0,1,1,0,19.0,46.0,10.0,1.0,11.0,2,17.4,False
+Fwd Header Length,1,0,1,0,0,3.0,24.0,1.0,26.0,33.0,2,17.4,False
+Total Length of Bwd Packets,1,1,0,0,0,1.0,5.0,24.0,26.0,32.0,2,17.6,False
+Flow IAT Mean,0,0,0,1,1,43.0,43.0,11.0,1.0,3.0,2,20.2,False
+Fwd IAT Mean,0,0,1,0,1,44.0,40.0,5.0,15.0,9.0,2,22.6,False
+Packet Length Variance,0,1,0,0,0,17.0,7.0,20.0,15.0,25.0,1,16.8,False
+Bwd Header Length,1,0,0,0,0,8.0,13.0,16.0,26.0,30.0,1,18.6,False
+Init_Win_bytes_forward,0,0,0,0,1,23.0,23.0,28.0,11.0,8.0,1,18.6,False
+Flow Duration,0,0,1,0,0,15.0,44.0,9.0,15.0,13.0,1,19.2,False
+Fwd IAT Max,0,0,1,0,0,20.0,41.0,8.0,15.0,15.0,1,19.8,False
+Bwd Packet Length Max,1,0,0,0,0,5.0,14.0,26.0,26.0,29.0,1,20.0,False
+Fwd Packets/s,0,0,0,0,1,56.0,48.0,14.0,15.0,10.0,1,28.6,False
+Bwd Packet Length Min,0,1,0,0,0,53.0,2.0,48.0,15.0,28.0,1,29.2,False
+Down/Up Ratio,0,1,0,0,0,34.0,9.0,52.0,48.0,55.0,1,39.6,False
+Fwd Packet Length Max,0,0,0,0,0,14.0,19.0,18.0,15.0,12.0,0,15.6,False
+Fwd IAT Total,0,0,0,0,0,16.0,45.0,13.0,15.0,21.0,0,22.0,False
+Total Length of Fwd Packets,0,0,0,0,0,47.0,20.0,17.0,11.0,16.0,0,22.2,False
+Fwd IAT Std,0,0,0,0,0,22.0,32.0,23.0,26.0,26.0,0,25.8,False
+Bwd Packet Length Std,0,0,0,0,0,12.0,33.0,37.0,26.0,34.0,0,28.4,False
+Total Fwd Packets,0,0,0,0,0,13.0,27.0,30.0,37.0,40.0,0,29.4,False
+Total Backward Packets,0,0,0,0,0,18.0,21.0,33.0,37.0,42.0,0,30.2,False
+Bwd IAT Max,0,0,0,0,0,35.0,12.0,32.0,37.0,37.0,0,30.6,False
+Fwd IAT Min,0,0,0,0,0,49.0,49.0,29.0,11.0,17.0,0,31.0,False
+Bwd IAT Mean,0,0,0,0,0,31.0,34.0,31.0,26.0,35.0,0,31.4,False
+Fwd Packet Length Std,0,0,0,0,0,41.0,36.0,35.0,15.0,31.0,0,31.6,False
+Bwd IAT Total,0,0,0,0,0,24.0,30.0,34.0,37.0,39.0,0,32.8,False
+Idle Max,0,0,0,0,0,21.0,17.0,43.0,37.0,48.0,0,33.2,False
+Fwd Packet Length Mean,0,0,0,0,0,51.0,42.0,27.0,26.0,23.0,0,33.8,False
+Flow Bytes/s,0,0,0,0,0,57.0,47.0,21.0,26.0,20.0,0,34.2,False
+Active Min,0,0,0,0,0,28.0,25.0,46.0,37.0,36.0,0,34.4,False
+Idle Mean,0,0,0,0,0,25.0,22.0,42.0,37.0,47.0,0,34.6,False
+Flow IAT Min,0,0,0,0,0,48.0,52.0,39.0,15.0,24.0,0,35.6,False
+Bwd IAT Std,0,0,0,0,0,46.0,37.0,36.0,26.0,38.0,0,36.6,False
+act_data_pkt_fwd,0,0,0,0,0,39.0,26.0,38.0,37.0,43.0,0,36.6,False
+Min Packet Length,0,0,0,0,0,52.0,11.0,50.0,37.0,44.0,0,38.8,False
+Active Mean,0,0,0,0,0,30.0,29.0,45.0,48.0,51.0,0,40.6,False
+Bwd IAT Min,0,0,0,0,0,36.0,51.0,41.0,37.0,41.0,0,41.2,False
+Active Max,0,0,0,0,0,32.0,31.0,44.0,48.0,53.0,0,41.6,False
+Idle Min,0,0,0,0,0,27.0,39.0,47.0,48.0,49.0,0,42.0,False
+Idle Std,0,0,0,0,0,45.0,18.0,51.0,48.0,54.0,0,43.2,False
+Fwd Packet Length Min,0,0,0,0,0,55.0,28.0,49.0,48.0,46.0,0,45.2,False
+PSH Flag Count,0,0,0,0,0,33.0,55.0,53.0,48.0,45.0,0,46.8,False
+ACK Flag Count,0,0,0,0,0,38.0,56.0,56.0,37.0,50.0,0,47.4,False
+Fwd PSH Flags,0,0,0,0,0,29.0,53.0,54.0,48.0,56.0,0,48.0,False
+URG Flag Count,0,0,0,0,0,37.0,57.0,55.0,48.0,52.0,0,49.8,False
+FIN Flag Count,0,0,0,0,0,42.0,54.0,58.0,48.0,58.0,0,52.0,False
+Active Std,0,0,0,0,0,40.0,58.0,57.0,48.0,57.0,0,52.0,False

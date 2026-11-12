@@ -1,0 +1,64 @@
+{
+  "dataset": "/Users/noella/Desktop/AdaptSynth/data/MachineLearningCVE",
+  "files": [
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Monday-WorkingHours.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Tuesday-WorkingHours.pcap_ISCX.csv",
+    "Wednesday-workingHours.pcap_ISCX.csv"
+  ],
+  "max_rows_per_class": 100,
+  "epochs": 1,
+  "seeds": [
+    42
+  ],
+  "split_seed": 42,
+  "n_select": 10,
+  "rfe_step": 0.2,
+  "selected_features": [
+    "Init_Win_bytes_backward",
+    "Max Packet Length",
+    "min_seg_size_forward",
+    "Destination Port",
+    "Bwd Packets/s",
+    "Flow Packets/s",
+    "Average Packet Size",
+    "Bwd Packet Length Mean",
+    "Packet Length Mean",
+    "Flow IAT Std"
+  ],
+  "dropped_constants": [
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "RST Flag Count",
+    "CWE Flag Count",
+    "ECE Flag Count",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate"
+  ],
+  "dropped_duplicate_columns": [
+    "SYN Flag Count",
+    "Avg Fwd Segment Size",
+    "Avg Bwd Segment Size",
+    "Fwd Header Length.1",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes"
+  ],
+  "real_similarity": {
+    "numerical_cols": 0.9582809290126364,
+    "categorical_cols": 0.9324545188172162,
+    "relationships": 0.9837878938985863
+  },
+  "real_train_macroF1": 0.8995113925397157,
+  "relationship_scope": "numeric-numeric and categorical-categorical only"
+}

@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+.venv-server/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw datasets are large (5 GB) and have their own licences: download them, see README.md.
+# Only data/README.md is tracked.
+data/*
+!data/README.md
+
+# Third-party code is cloned separately (it is its own git repo); our one-line fix is third_party/ctabgan_plus_numpy2.patch
+third_party/CTAB-GAN-Plus/
+
+# Generated synthetic tables and split copies (regenerate by running the notebooks)
+synthetic_*.csv
+synth_*.csv
+results/train.csv
+results/test.csv
+
+# Tool-generated
+.claude/
+
+# Unpublished paper draft
+*.pdf

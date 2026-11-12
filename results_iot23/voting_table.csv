@@ -1,0 +1,13 @@
+,vote_anova_f (filter),vote_chi2_cramersV (filter),vote_mutual_info (filter),vote_rfe (wrapper),vote_rf_importance (embedded),rank_anova_f (filter),rank_chi2_cramersV (filter),rank_mutual_info (filter),rank_rfe (wrapper),rank_rf_importance (embedded),votes,avg_rank,selected
+id.resp_p,1,1,1,1,1,1.0,4.0,1.0,1.0,2.0,5,1.8,True
+orig_ip_bytes,1,1,1,1,1,2.0,3.0,5.0,1.0,4.0,5,3.0,True
+id.orig_p,1,1,1,1,1,4.0,5.0,2.0,1.0,5.0,5,3.4,True
+history,0,1,1,1,1,,1.0,3.0,1.0,1.0,4,1.5,True
+proto,0,1,1,1,1,,2.0,4.0,1.0,3.0,4,2.5,True
+orig_pkts,1,1,1,0,0,3.0,6.0,6.0,9.0,8.0,3,6.4,True
+conn_state,0,0,0,1,1,,8.0,8.0,1.0,6.0,2,5.75,False
+duration,1,0,0,0,0,5.0,7.0,7.0,7.0,7.0,1,6.6,False
+resp_bytes,1,0,0,0,0,6.0,10.0,9.0,10.0,10.0,1,9.0,False
+orig_bytes,0,0,0,0,0,7.0,9.0,11.0,8.0,9.0,0,8.8,False
+resp_pkts,0,0,0,0,0,9.0,11.0,10.0,12.0,12.0,0,10.8,False
+resp_ip_bytes,0,0,0,0,0,8.0,12.0,12.0,11.0,11.0,0,10.8,False

@@ -1,0 +1,16 @@
+,source_rows,sample_rows,clean_rows,train_rows,test_rows
+BENIGN,2273097,2000,1996,1397,599
+Bot,1966,1966,1953,1367,586
+DDoS,128027,2000,2000,1400,600
+DoS GoldenEye,10293,2000,1999,1399,600
+DoS Hulk,231073,2000,1628,1139,489
+DoS Slowhttptest,5499,2000,1921,1345,576
+DoS slowloris,5796,2000,1913,1339,574
+FTP-Patator,7938,2000,1613,1129,484
+Heartbleed,11,11,11,8,3
+Infiltration,36,36,36,25,11
+PortScan,158930,2000,1970,1379,591
+SSH-Patator,5897,2000,1178,825,353
+Web Attack ï¿½ Brute Force,1507,1507,1470,1029,441
+Web Attack ï¿½ Sql Injection,21,21,21,15,6
+Web Attack ï¿½ XSS,652,652,652,456,196

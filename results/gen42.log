@@ -1,0 +1,14 @@
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sdv/single_table/base.py:136: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+baseline 47 cols 1419 s
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sdv/single_table/base.py:136: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+Python(50092) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50093) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50094) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50095) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50096) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50097) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50098) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(50099) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+selected 11 cols 547 s

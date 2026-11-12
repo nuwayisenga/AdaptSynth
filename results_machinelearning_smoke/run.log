@@ -1,0 +1,219 @@
+2026-10-29 21:56:03.438 system_profiler[5695:42874] XType: Using static font registry.
+Matplotlib is building the font cache; this may take a moment.
+
+START cell 2 elapsed=0.0s
+DONE cell 2 seconds=3.6
+
+START cell 4 elapsed=3.6s
+Read Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Read Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Read Friday-WorkingHours-Morning.pcap_ISCX.csv
+Read Monday-WorkingHours.pcap_ISCX.csv
+Read Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Read Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Read Tuesday-WorkingHours.pcap_ISCX.csv
+Read Wednesday-workingHours.pcap_ISCX.csv
+Sample shape: (1268, 79)
+                              source_rows  sample_rows
+BENIGN                            2273097          100
+Bot                                  1966          100
+DDoS                               128027          100
+DoS GoldenEye                       10293          100
+DoS Hulk                           231073          100
+DoS Slowhttptest                     5499          100
+DoS slowloris                        5796          100
+FTP-Patator                          7938          100
+Heartbleed                             11           11
+Infiltration                           36           36
+PortScan                           158930          100
+SSH-Patator                          5897          100
+Web Attack ï¿½ Brute Force           1507          100
+Web Attack ï¿½ Sql Injection           21           21
+Web Attack ï¿½ XSS                    652          100
+DONE cell 4 seconds=24.4
+
+START cell 6 elapsed=28.0s
+Exact duplicate rows removed: 37
+label
+BENIGN                          100
+DDoS                            100
+Bot                             100
+Web Attack ï¿½ Brute Force      100
+Web Attack ï¿½ XSS              100
+DoS GoldenEye                   100
+PortScan                         99
+DoS slowloris                    99
+DoS Slowhttptest                 98
+FTP-Patator                      90
+DoS Hulk                         89
+SSH-Patator                      88
+Infiltration                     36
+Web Attack ï¿½ Sql Injection     21
+Heartbleed                       11
+Name: count, dtype: int64
+DONE cell 6 seconds=0.0
+
+START cell 8 elapsed=28.0s
+Dropped constant/empty: ['Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'RST Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate']
+Dropped duplicate columns: ['SYN Flag Count', 'Avg Fwd Segment Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Subflow Fwd Packets', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes']
+Train (861, 59) Test (370, 59) Candidate features 58
+DONE cell 8 seconds=0.1
+
+START cell 10 elapsed=28.1s
+Ranking 1/5: ANOVA
+Ranking 2/5: chi-square
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 1 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 3 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 9 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 11 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 13 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 19 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 21 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 23 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 25 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 27 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 29 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 31 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 33 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 34 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 35 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 36 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 37 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 38 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 39 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 40 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 41 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 42 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 43 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 44 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 45 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 46 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 47 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 48 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 49 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 50 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 51 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 52 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 53 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 54 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 55 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py:306: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 56 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+Ranking 3/5: mutual information
+Ranking 4/5: RFE (repeated forest fits; this can be slow)
+Ranking 5/5: forest importance
+DONE cell 10 seconds=2.0
+
+START cell 12 elapsed=30.1s
+Selected features: ['Init_Win_bytes_backward', 'Max Packet Length', 'min_seg_size_forward', 'Destination Port', 'Bwd Packets/s', 'Flow Packets/s', 'Average Packet Size', 'Bwd Packet Length Mean', 'Packet Length Mean', 'Flow IAT Std']
+DONE cell 12 seconds=0.0
+
+START cell 13 elapsed=30.2s
+DONE cell 13 seconds=0.2
+
+START cell 15 elapsed=30.4s
+Starting baseline (all features), seed=42, epochs=1, rows=861, columns=59
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sdv/single_table/base.py:136: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+  File "/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/joblib/externals/loky/backend/context.py", line 249, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/joblib/externals/loky/backend/context.py", line 318, in _count_physical_cores_darwin
+    return int(cpu_info)
+  0%|          | 0/1 [00:00<?, ?it/s]Gen. (+00.00) | Discrim. (+00.00):   0%|          | 0/1 [00:00<?, ?it/s]Gen. (+03.85) | Discrim. (+00.02):   0%|          | 0/1 [00:00<?, ?it/s]Gen. (+03.85) | Discrim. (+00.02): 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]Gen. (+03.85) | Discrim. (+00.02): 100%|██████████| 1/1 [00:00<00:00,  3.79it/s]
+baseline (all features)    seed=42 columns=59 14s
+Starting selected (voted top-N), seed=42, epochs=1, rows=861, columns=11
+/Users/noella/Desktop/AdaptSynth/.venv/lib/python3.9/site-packages/sdv/single_table/base.py:136: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+  0%|          | 0/1 [00:00<?, ?it/s]Gen. (+00.00) | Discrim. (+00.00):   0%|          | 0/1 [00:00<?, ?it/s]Gen. (+03.89) | Discrim. (-00.00):   0%|          | 0/1 [00:00<?, ?it/s]Gen. (+03.89) | Discrim. (-00.00): 100%|██████████| 1/1 [00:00<00:00, 16.12it/s]
+selected (voted top-N)     seed=42 columns=11 1s
+DONE cell 15 seconds=15.2
+
+START cell 17 elapsed=45.6s
+             experiment  seed  columns_trained_on  numerical_cols  categorical_cols  relationships  TSTR_macroF1  train_seconds
+baseline (all features)    42                  59        0.572618          0.458173       0.838531      0.022873      13.779262
+ selected (voted top-N)    42                  11        0.530435          0.461379       0.840777      0.010483       0.839634
+DONE cell 17 seconds=1.0
+
+START cell 19 elapsed=46.6s
+DONE cell 19 seconds=0.0
+
+START cell 20 elapsed=46.6s
+Real train vs real test similarity: {'numerical_cols': np.float64(0.958), 'categorical_cols': np.float64(0.932), 'relationships': np.float64(0.984)}
+Real-trained classifier reference macro-F1: 0.9
+DONE cell 20 seconds=0.4
+
+START cell 22 elapsed=47.0s
+DONE cell 22 seconds=0.1
+
+START cell 23 elapsed=47.1s
+DONE cell 23 seconds=0.0
+
+START cell 25 elapsed=47.1s
+Saved to /Users/noella/Desktop/AdaptSynth/results_machinelearning_smoke
+DONE cell 25 seconds=0.0
+COMPLETE 47.088968667

@@ -1,0 +1,13 @@
+diff --git a/model/synthesizer/transformer.py b/model/synthesizer/transformer.py
+index ddad922..af167ad 100644
+--- a/model/synthesizer/transformer.py
++++ b/model/synthesizer/transformer.py
+@@ -273,7 +273,7 @@ class DataTransformer():
+                         final[idx, (category_+1)] = 1
+                     
+                     else:
+-                        final[idx, 0] = features[features_curser]
++                        final[idx, 0] = features[features_curser, 0]  # NumPy>=2: was features[features_curser]
+                         final[idx, (1+len(info['modal'])):] = temp_probs_onehot[features_curser][len(info['modal']):]
+                         features_curser = features_curser + 1
+                
